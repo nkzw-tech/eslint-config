@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.44.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-no-instanceof": "^1.0.1",
@@ -19,6 +18,9 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "eslint-plugin-unicorn": "^47.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
