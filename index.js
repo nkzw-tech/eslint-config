@@ -70,6 +70,7 @@ module.exports = {
     'no-unused-labels': 2,
     'no-unused-vars': 0,
     'no-var': 2,
+    'no-warning-comments': [2, { terms: ['@nocommit'] }],
     'object-curly-spacing': 0,
     'object-shorthand': 2,
     'prefer-arrow-callback': [2, { allowNamedFunctions: true }],
