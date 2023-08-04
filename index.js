@@ -26,6 +26,7 @@ module.exports = {
     'no-only-tests',
     'react-hooks',
     'react',
+    'sort-destructure-keys',
     'sort-keys-fix',
     'typescript-sort-keys',
     'unicorn',
@@ -79,6 +80,7 @@ module.exports = {
     'react/jsx-sort-props': 2,
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
+    'sort-destructure-keys/sort-destructure-keys': 2,
     'sort-keys-fix/sort-keys-fix': 2,
     'space-before-blocks': 2,
     'space-before-function-paren': [

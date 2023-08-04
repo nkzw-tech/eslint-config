@@ -29,6 +29,9 @@ dependencies:
   eslint-plugin-react-hooks:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.46.0)
+  eslint-plugin-sort-destructure-keys:
+    specifier: ^1.5.0
+    version: 1.5.0(eslint@8.46.0)
   eslint-plugin-sort-keys-fix:
     specifier: ^1.1.2
     version: 1.1.2
@@ -926,6 +929,16 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.1
       string.prototype.matchall: 4.0.8
+    dev: false
+
+  /eslint-plugin-sort-destructure-keys@1.5.0(eslint@8.46.0):
+    resolution: {integrity: sha512-xGLyqHtbFXZNXQSvAiQ4ISBYokrbUywEhmaA50fKtSKgceCv5y3zjoNuZwcnajdM6q29Nxj+oXC9KcqfMsAPrg==}
+    engines: {node: '>=6.0.0'}
+    peerDependencies:
+      eslint: 3 - 8
+    dependencies:
+      eslint: 8.46.0
+      natural-compare-lite: 1.4.0
     dev: false
 
   /eslint-plugin-sort-keys-fix@1.1.2:
