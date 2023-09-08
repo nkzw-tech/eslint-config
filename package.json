@@ -3,6 +3,10 @@
   "version": "1.5.0",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpojer/eslint-config.git"
+  },
   "main": "index.js",
   "keywords": [],
   "license": "MIT",
