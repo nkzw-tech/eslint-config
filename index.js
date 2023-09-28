@@ -30,6 +30,7 @@ module.exports = {
     'sort-keys-fix',
     'typescript-sort-keys',
     'unicorn',
+    'unused-imports',
   ],
   rules: {
     '@typescript-eslint/ban-ts-comment': 0,
@@ -113,6 +114,7 @@ module.exports = {
     'unicorn/prefer-ternary': 2,
     'unicorn/prefer-top-level-await': 2,
     'unicorn/text-encoding-identifier-case': 2,
+    'unused-imports/no-unused-imports': 2,
   },
   settings: {
     'import/parsers': {
