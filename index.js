@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@nkzw/strict',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/strict',
     'plugin:import/errors',
@@ -20,9 +21,9 @@ module.exports = {
     },
   },
   plugins: [
+    '@nkzw',
     '@typescript-eslint',
     'import',
-    'no-instanceof',
     'no-only-tests',
     'react-hooks',
     'react',
@@ -64,7 +65,6 @@ module.exports = {
     'no-console': 2,
     'no-const-assign': 2,
     'no-extra-parens': [2, 'functions'],
-    'no-instanceof/no-instanceof': 2,
     'no-irregular-whitespace': 2,
     'no-only-tests/no-only-tests': 2,
     'no-this-before-super': 2,
