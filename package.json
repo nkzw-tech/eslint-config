@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -12,8 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "@nkzw/eslint-plugin": "^1.8.0",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-no-only-tests": "^3.1.0",
@@ -22,11 +22,11 @@
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^3.1.0",
-    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-unused-imports": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.52.0"
+    "eslint": "^8.53.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
