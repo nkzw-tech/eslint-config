@@ -64,6 +64,7 @@ module.exports = {
     'import/order': 0,
     'no-console': 2,
     'no-const-assign': 2,
+    'no-constant-binary-expression': 2,
     'no-extra-parens': [2, 'functions'],
     'no-irregular-whitespace': 2,
     'no-only-tests/no-only-tests': 2,
