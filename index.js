@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2024: true,
     node: true,
   },
   extends: [
@@ -72,6 +72,7 @@ module.exports = {
     'no-unused-expressions': 2,
     'no-unused-labels': 2,
     'no-unused-vars': 0,
+    'no-useless-rename': 2,
     'no-var': 2,
     'no-warning-comments': [2, { terms: ['@nocommit'] }],
     'object-curly-spacing': 0,
