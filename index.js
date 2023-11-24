@@ -53,11 +53,10 @@ module.exports = {
     ],
     curly: 2,
     'eol-last': 2,
-    // `import/default` and `import/namespace` are slow.
+    // `import/default`, `import/namespace` and `import/no-duplicates` are slow.
     'import/default': 0,
     'import/named': 0,
     'import/namespace': 0,
-    // prettier https://github.com/ianvs/prettier-plugin-sort-imports already handles it.
     'import/no-duplicates': 0, 
     'import/no-extraneous-dependencies': 2,
     'import/no-named-as-default-member': 0,
