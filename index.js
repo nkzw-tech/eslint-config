@@ -57,7 +57,8 @@ module.exports = {
     'import/default': 0,
     'import/named': 0,
     'import/namespace': 0,
-    'import/no-duplicates': 2,
+    // prettier https://github.com/ianvs/prettier-plugin-sort-imports already handles it.
+    'import/no-duplicates': 0, 
     'import/no-extraneous-dependencies': 2,
     'import/no-named-as-default-member': 0,
     'import/no-namespace': 2,
