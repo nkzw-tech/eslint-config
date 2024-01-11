@@ -99,6 +99,7 @@ module.exports = {
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-hex-escape': 2,
     'unicorn/no-typeof-undefined': 2,
+    'unicorn/no-unnecessary-polyfills': 2,
     'unicorn/no-useless-promise-resolve-reject': 2,
     'unicorn/no-useless-spread': 2,
     'unicorn/numeric-separators-style': 2,
