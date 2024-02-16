@@ -42,18 +42,7 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 0,
     '@typescript-eslint/no-unused-vars': 0,
     '@typescript-eslint/no-var-requires': 0,
-    'array-bracket-spacing': [2, 'never'],
-    'arrow-parens': [2, 'always'],
-    'arrow-spacing': 2,
-    'brace-style': [
-      2,
-      '1tbs',
-      {
-        allowSingleLine: true,
-      },
-    ],
     curly: 2,
-    'eol-last': 2,
     // `import/default`, `import/namespace` and `import/no-duplicates` are slow.
     'import/default': 0,
     'import/named': 0,
@@ -86,11 +75,6 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'sort-destructure-keys/sort-destructure-keys': 2,
     'sort-keys-fix/sort-keys-fix': 2,
-    'space-before-blocks': 2,
-    'space-before-function-paren': [
-      2,
-      { anonymous: 'never', asyncArrow: 'always', named: 'never' },
-    ],
     'typescript-sort-keys/interface': 2,
     'typescript-sort-keys/string-enum': 2,
     'unicorn/better-regex': 2,
