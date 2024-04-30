@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -12,18 +12,18 @@
   "license": "MIT",
   "dependencies": {
     "@nkzw/eslint-plugin": "^1.8.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-no-only-tests": "^3.1.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-typescript-sort-keys": "^3.1.0",
-    "eslint-plugin-unicorn": "^51.0.1",
-    "eslint-plugin-unused-imports": "^3.1.0"
+    "eslint-plugin-typescript-sort-keys": "^3.2.0",
+    "eslint-plugin-unicorn": "^52.0.0",
+    "eslint-plugin-unused-imports": "^3.2.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0"
