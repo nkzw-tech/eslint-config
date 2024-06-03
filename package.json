@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
