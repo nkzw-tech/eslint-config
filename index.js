@@ -84,6 +84,7 @@ module.exports = {
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-hex-escape': 2,
     'unicorn/no-invalid-fetch-options': 2,
+    'unicorn/no-length-as-slice-end': 2,
     'unicorn/no-magic-array-flat-depth': 2,
     'unicorn/no-typeof-undefined': 2,
     'unicorn/no-unnecessary-polyfills': 2,
