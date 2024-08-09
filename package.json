@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -23,7 +23,7 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^3.2.0",
     "eslint-plugin-unicorn": "^55.0.0",
-    "eslint-plugin-unused-imports": "^4.0.1"
+    "eslint-plugin-unused-imports": "~4.0.1"
   },
   "devDependencies": {
     "eslint": "^8.56.0"
