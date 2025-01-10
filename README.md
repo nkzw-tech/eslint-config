@@ -4,19 +4,36 @@ Opinionated ESLint config with sensible defaults.
 
 ## Installation & Usage
 
+With ESLint v9+:
+
 ```
 npm install @nkzw/eslint-config
 ```
 
-In your `.eslintrc.js` or `.eslintrc.cjs`:
+In your `eslint.config.js`:
 
 ```js
-module.exports = {
-  extends: ['@nkzw'],
-};
+import nkzw from '@nkzw/eslint-config';
+
+export default nkzw;
+```
+
+Or, if you have custom ESLint rules or configuration:
+
+```js
+import nkzw from '@nkzw/eslint-config';
+
+export default [
+  ...nkzw,
+  {
+    // Custom configuration.
+  },
+];
 ```
 
 Then run `pnpm eslint .` or `npm eslint .`.
+
+_Note: You can use @nkzw/eslint-config 1.x with ESLint versions 8 and below._
 
 ## Philosophy & Principles
 
@@ -50,4 +67,4 @@ This configuration is meant to be used with:
 - [TypeScript](https://www.typescriptlang.org/) and the [`noUnusedLocals`](https://www.typescriptlang.org/tsconfig#noUnusedLocals) setting.
 - [Prettier](https://prettier.io/) and the [`@ianvs/prettier-plugin-sort-imports`](https://github.com/ianvs/prettier-plugin-sort-imports).
 
-Read more [frontend tooling suggestions in this blog post](https://cpojer.net/posts/fastest-frontend-tooling-in-2022).
+Read about more [frontend tooling suggestions in this blog post](https://cpojer.net/posts/fastest-frontend-tooling-in-2022).

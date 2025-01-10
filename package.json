@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "1.19.0",
+  "version": "2.0.0",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -8,12 +8,19 @@
     "url": "git://github.com/cpojer/eslint-config.git"
   },
   "main": "index.js",
-  "keywords": [],
+  "type": "module",
+  "keywords": [
+    "eslint",
+    "config",
+    "defaults",
+    "strict",
+    "autofix"
+  ],
   "license": "MIT",
   "dependencies": {
+    "@eslint/js": "^9.17.0",
     "@nkzw/eslint-plugin": "^1.8.0",
-    "@typescript-eslint/eslint-plugin": "^8.18.2",
-    "@typescript-eslint/parser": "^8.18.2",
+    "@typescript-eslint/parser": "^8.19.1",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-no-only-tests": "^3.3.0",
@@ -23,22 +30,17 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "eslint-plugin-unicorn": "^56.0.1",
-    "eslint-plugin-unused-imports": "~4.1.4"
+    "eslint-plugin-unused-imports": "~4.1.4",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.19.1"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^9.17.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
-  },
-  "pnpm": {
-    "updateConfig": {
-      "ignoreDependencies": [
-        "eslint"
-      ]
-    }
+    "eslint": ">= 9"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint -c index.js ."
   }
 }
