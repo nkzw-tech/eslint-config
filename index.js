@@ -19,6 +19,7 @@ export default tseslint.config(
   importPlugin.flatConfigs.recommended,
   importPlugin.flatConfigs.typescript,
   nkzw.configs.strict,
+  reactHooks.configs.recommended,
   react.configs.flat.recommended,
   {
     languageOptions: {
@@ -33,7 +34,6 @@ export default tseslint.config(
       '@nkzw': nkzw,
       'no-only-tests': noOnlyTests,
       react,
-      'react-hooks': reactHooks,
       'sort-destructure-keys': sortDestructureKeys,
       'sort-keys-fix': sortKeysFix,
       'typescript-sort-keys': typescriptSortKeys,
@@ -41,7 +41,6 @@ export default tseslint.config(
       'unused-imports': unusedImports,
     },
     rules: {
-      ...reactHooks.configs.recommended.rules,
       '@typescript-eslint/ban-ts-comment': 0,
       '@typescript-eslint/no-dynamic-delete': 0,
       '@typescript-eslint/no-invalid-void-type': 0,
@@ -79,6 +78,8 @@ export default tseslint.config(
       'prefer-arrow-callback': [2, { allowNamedFunctions: true }],
       'prefer-const': 2,
       'react-hooks/exhaustive-deps': 2,
+      'react-hooks/react-compiler': 2,
+      'react-hooks/rules-of-hooks': 2,
       'react/jsx-sort-props': 2,
       'react/prop-types': 0,
       'react/react-in-jsx-scope': 0,
