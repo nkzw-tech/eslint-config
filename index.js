@@ -1,10 +1,9 @@
 import globals from 'globals';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import js from '@eslint/js';
 import nkzw from '@nkzw/eslint-plugin';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
-// eslint-disable-next-line import/no-unresolved
 import tseslint from 'typescript-eslint';
 import noOnlyTests from 'eslint-plugin-no-only-tests';
 import sortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
@@ -51,15 +50,15 @@ export default tseslint.config(
       '@typescript-eslint/no-var-requires': 0,
       curly: 2,
       // `import/default`, `import/namespace` and `import/no-duplicates` are slow.
-      'import/default': 0,
-      'import/named': 0,
-      'import/namespace': 0,
-      'import/no-duplicates': 0,
-      'import/no-extraneous-dependencies': 2,
-      'import/no-named-as-default': 0,
-      'import/no-named-as-default-member': 0,
-      'import/no-namespace': 2,
-      'import/order': 0,
+      'import-x/default': 0,
+      'import-x/named': 0,
+      'import-x/namespace': 0,
+      'import-x/no-duplicates': 0,
+      'import-x/no-extraneous-dependencies': 2,
+      'import-x/no-named-as-default': 0,
+      'import-x/no-named-as-default-member': 0,
+      'import-x/no-namespace': 2,
+      'import-x/order': 0,
       'no-console': 2,
       'no-const-assign': 2,
       'no-constant-binary-expression': 2,
@@ -123,7 +122,7 @@ export default tseslint.config(
       'unused-imports/no-unused-imports': 2,
     },
     settings: {
-      'import/parsers': {
+      'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts', '.tsx'],
       },
       react: {
