@@ -4,11 +4,9 @@ import js from '@eslint/js';
 import nkzw from '@nkzw/eslint-plugin';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
+import perfectionist from 'eslint-plugin-perfectionist';
 import tseslint from 'typescript-eslint';
 import noOnlyTests from 'eslint-plugin-no-only-tests';
-import sortDestructureKeys from 'eslint-plugin-sort-destructure-keys';
-import sortKeysFix from 'eslint-plugin-sort-keys-fix';
-import typescriptSortKeys from 'eslint-plugin-typescript-sort-keys';
 import unicorn from 'eslint-plugin-unicorn';
 import unusedImports from 'eslint-plugin-unused-imports';
 
@@ -32,10 +30,8 @@ export default tseslint.config(
     plugins: {
       '@nkzw': nkzw,
       'no-only-tests': noOnlyTests,
+      perfectionist,
       react,
-      'sort-destructure-keys': sortDestructureKeys,
-      'sort-keys-fix': sortKeysFix,
-      'typescript-sort-keys': typescriptSortKeys,
       unicorn,
       'unused-imports': unusedImports,
     },
@@ -74,18 +70,22 @@ export default tseslint.config(
       'no-warning-comments': [2, { terms: ['@nocommit'] }],
       'object-curly-spacing': 0,
       'object-shorthand': 2,
+      'perfectionist/sort-enums': [
+        2,
+        { partitionByComment: true, sortByValue: true },
+      ],
+      'perfectionist/sort-heritage-clauses': 2,
+      'perfectionist/sort-interfaces': 2,
+      'perfectionist/sort-jsx-props': 2,
+      'perfectionist/sort-object-types': 2,
+      'perfectionist/sort-objects': [2, { partitionByComment: true }],
       'prefer-arrow-callback': [2, { allowNamedFunctions: true }],
       'prefer-const': 2,
       'react-hooks/exhaustive-deps': 2,
       'react-hooks/react-compiler': 2,
       'react-hooks/rules-of-hooks': 2,
-      'react/jsx-sort-props': 2,
       'react/prop-types': 0,
       'react/react-in-jsx-scope': 0,
-      'sort-destructure-keys/sort-destructure-keys': 2,
-      'sort-keys-fix/sort-keys-fix': 2,
-      'typescript-sort-keys/interface': 2,
-      'typescript-sort-keys/string-enum': 2,
       'unicorn/better-regex': 2,
       'unicorn/catch-error-name': 2,
       'unicorn/consistent-empty-array-spread': 2,

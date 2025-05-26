@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -24,11 +24,9 @@
     "eslint-import-resolver-typescript": "^4.4.0",
     "eslint-plugin-import-x": "^4.13.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-perfectionist": "^4.13.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "6.1.0-canary-914319ae-20250423",
-    "eslint-plugin-sort-destructure-keys": "^2.0.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "eslint-plugin-unicorn": "^59.0.1",
     "eslint-plugin-unused-imports": "~4.1.4",
     "globals": "^16.2.0",
