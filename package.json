@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ESLint config with sensible defaults.",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
@@ -21,8 +21,8 @@
     "@eslint/js": "^9.27.0",
     "@nkzw/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^8.32.1",
-    "eslint-import-resolver-typescript": "^4.4.0",
-    "eslint-plugin-import-x": "^4.13.1",
+    "eslint-import-resolver-typescript": "^4.4.1",
+    "eslint-plugin-import-x": "^4.13.3",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-perfectionist": "^4.13.0",
     "eslint-plugin-react": "^7.37.5",
