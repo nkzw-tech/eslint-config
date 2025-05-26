@@ -52,11 +52,10 @@ This configuration consists of the most useful and least annoying rules from the
 - [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint)
 - [`eslint-import-resolver-typescript`](https://www.npmjs.com/package/eslint-import-resolver-typescript)
 - [`eslint-plugin-unicorn`](https://github.com/sindresorhus/eslint-plugin-unicorn)
-- [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)
-- [`eslint-plugin-sort-keys-fix`](https://github.com/leo-buneev/eslint-plugin-sort-keys-fix)
-- [`eslint-plugin-typescript-sort-keys`](https://github.com/infctr/eslint-plugin-typescript-sort-keys)
+- [`eslint-plugin-import-x`](https://github.com/un-ts/eslint-plugin-import-x)
 - [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react)
 - [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+- [`eslint-plugin-perfectionist`](https://perfectionist.dev/)
 - [`eslint-plugin-no-instanceof`](https://www.npmjs.com/package/eslint-plugin-no-instanceof)
 - [`eslint-plugin-no-only-tests`](https://github.com/levibuzolic/eslint-plugin-no-only-tests)
 
