@@ -39,11 +39,11 @@ _Note: You can use @nkzw/eslint-config 1.x with ESLint versions 8 and below._
 
 Use this configuration if these principles resonate with you:
 
-- **Error, Never Warn:** People tend to ignore warnings. There is little value in only warning about potentially problematic code patterns. Either it's an issue or not. Errors force the developer to address the problem either by fixing it or explicitly disabling the role in that location.
-- **Strict, consistent code style:** If there are multiple ways of doing something, or there is a new language construct or best practice, this configuration will suggest the most strict and consistent solution.
-- **Prevent Bugs:** Problematic patterns such as `instanceof` are not allowed. This forces developers to choose more robust patterns. This configuration disallows usage of `console` or `test.only` so that you don't end up with unintended logging in production or CI failures. If you want to log to the console in your production app, use another function that calls `console.log` to distinguish between debug logs and intentional logs.
-- **Fast:** Slow rules are avoided if possible. For example, it is recommended to use the fast `noUnusedLocals` check in TypeScript instead of the `no-unused-vars` rules.
-- **Don't get in the way:** Rules that get in the way or are too [subjective](https://github.com/airbnb/javascript) are disabled. Rules with autofixers are preferred over rules without them.
+- **Error, Never Warn:** Warnings are noise and get ignored. Either it's an issue, or it isn't. This config forces developers to fix problems or explicitly disable the rule with a comment.
+- **Strict, Consistent Code Style:** When multiple approaches exist, this configuration enforces the strictest, most consistent code style, preferring modern language features and best practices.
+- **Prevent Bugs:** Problematic patterns such as `instanceof` are not allowed, forcing developers to choose more robust patterns. Debug-only code such as `console.log` or `test.only` are disallowed to avoid accidental CI failures or unintended logging in production.
+- **Fast:** Slow rules are avoided. For example, TypeScript's `noUnusedLocals` check is preferred over `no-unused-vars`.
+- **Don't get in the way:** [Subjective or overly opinionated rules](https://github.com/airbnb/javascript) (e.g. style preferences) are disabled. Autofixable rules are preferred to reduce friction and save time.
 
 ## Included Plugins & Rules
 
