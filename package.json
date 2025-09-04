@@ -18,9 +18,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@eslint/js": "^9.31.0",
+    "@eslint/js": "^9.34.0",
     "@nkzw/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^8.38.0",
+    "@typescript-eslint/parser": "^8.42.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import-x": "^4.16.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
@@ -28,12 +28,12 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "6.1.0-canary-914319ae-20250423",
     "eslint-plugin-unicorn": "^60.0.0",
-    "eslint-plugin-unused-imports": "~4.1.4",
+    "eslint-plugin-unused-imports": "~4.2.0",
     "globals": "^16.3.0",
-    "typescript-eslint": "^8.38.0"
+    "typescript-eslint": "^8.42.0"
   },
   "devDependencies": {
-    "eslint": "^9.31.0"
+    "eslint": "^9.34.0"
   },
   "peerDependencies": {
     "eslint": ">= 9"
