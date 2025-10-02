@@ -16,7 +16,6 @@ export default tseslint.config(
   importPlugin.flatConfigs.recommended,
   importPlugin.flatConfigs.typescript,
   nkzw.configs.strict,
-  reactHooks.configs.recommended,
   react.configs.flat.recommended,
   {
     languageOptions: {
@@ -32,6 +31,7 @@ export default tseslint.config(
       'no-only-tests': noOnlyTests,
       perfectionist,
       react,
+      'react-hooks': reactHooks,
       unicorn,
       'unused-imports': unusedImports,
     },
