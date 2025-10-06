@@ -17,6 +17,7 @@ export default tseslint.config(
   importPlugin.flatConfigs.typescript,
   nkzw.configs.strict,
   react.configs.flat.recommended,
+  reactHooks.configs['flat/recommended'],
   {
     languageOptions: {
       ecmaVersion: 2024,
@@ -31,7 +32,6 @@ export default tseslint.config(
       'no-only-tests': noOnlyTests,
       perfectionist,
       react,
-      'react-hooks': reactHooks,
       unicorn,
       'unused-imports': unusedImports,
     },
@@ -89,7 +89,7 @@ export default tseslint.config(
       'react-hooks/globals': 2,
       'react-hooks/immutability': 2,
       'react-hooks/incompatible-library': 2,
-      'react-hooks/preserve-manual-memoization': 0,
+      'react-hooks/preserve-manual-memoization': 2,
       'react-hooks/purity': 2,
       'react-hooks/refs': 2,
       'react-hooks/rules-of-hooks': 2,
