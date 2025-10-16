@@ -17,7 +17,7 @@ export default tseslint.config(
   importPlugin.flatConfigs.typescript,
   nkzw.configs.strict,
   react.configs.flat.recommended,
-  reactHooks.configs['flat/recommended'],
+  reactHooks.configs.flat.recommended,
   {
     languageOptions: {
       ecmaVersion: 2024,
@@ -31,7 +31,6 @@ export default tseslint.config(
       '@nkzw': nkzw,
       'no-only-tests': noOnlyTests,
       perfectionist,
-      react,
       unicorn,
       'unused-imports': unusedImports,
     },
