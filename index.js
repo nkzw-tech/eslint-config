@@ -71,7 +71,7 @@ export default tseslint.config(
       'object-shorthand': 2,
       'perfectionist/sort-enums': [
         2,
-        { partitionByComment: true, sortByValue: true },
+        { partitionByComment: true, sortByValue: 'always' },
       ],
       'perfectionist/sort-heritage-clauses': 2,
       'perfectionist/sort-interfaces': 2,
@@ -142,5 +142,5 @@ export default tseslint.config(
         version: '19.0.0',
       },
     },
-  }
+  },
 );
