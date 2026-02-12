@@ -1,6 +1,8 @@
 # `@nkzw/eslint-config`
 
-Opinionated ESLint config with sensible defaults.
+_Opinionated ESLint config with sensible defaults._
+
+If you are using Oxlint, check out [`@nkzw/oxlint-config`](https://github.com/nkzw-tech/oxlint-config).
 
 ## Installation & Usage
 
